@@ -5,7 +5,7 @@ id: ami-09f7fbc41963e146f
 name: amzn2-ami-kernel-5.10-hvm-2.0.20230404.0-x86_64-gp2
 
 ## Install OpenJDK (Java Development Kit) version 1.8.0
-sudo yum install java-1.8.0-openjdk-devel
+sudo yum install java-1.8.0-openjdk-devel  / sudo amazon-linux-extras install java-openjdk11
 
 ## Check Java version
 java -version
